@@ -8,10 +8,10 @@ window.onload = function() {
             const move = addedNode.firstChild.data
 
             const movesAudios = []
-            if (move === '0-0') {
-              movesAudios.push(chrome.runtime.getURL(`audios/0-0Audio.mp3`))
-            } else if (move === '0-0-0') {
-              movesAudios.push(chrome.runtime.getURL(`audios/0-0-0Audio.mp3`))
+            if (move === 'O-O') {
+              movesAudios.push(chrome.runtime.getURL(`audios/O-OAudio.mp3`))
+            } else if (move === 'O-O-O') {
+              movesAudios.push(chrome.runtime.getURL(`audios/O-O-OAudio.mp3`))
             } else {
               for (const c of move) {
                 let moveLetter
@@ -49,7 +49,6 @@ window.onload = function() {
               }
             }
             
-            console.log(movesAudios)
             playSequence(movesAudios);
             
           }
