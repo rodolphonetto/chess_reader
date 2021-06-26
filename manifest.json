@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "Chess moves sound",
-  "description": "",
+  "name": "Chess Voice Reader",
+  "description": "Leitura dos últimos lances jogados em português do Brasil",
   "version": "1.0",
 
   "action": {
